@@ -20,10 +20,10 @@ jobs:
           docs-folder: "."
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          SSH-KEY: ${{ secrets.DEPLOY_KEY }}
-          BRANCH: gh-pages
-          FOLDER: _build/html
-          GIT_CONFIG_NAME: Github Actions
-          GIT_CONFIG_EMAIL: noreply@github.com
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+          branch: gh-pages
+          folder: _build/html
+          git-config-name: Github Actions
+          git-config-email: noreply@github.com
