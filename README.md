@@ -5,7 +5,7 @@
 
 <div align="center">
   <h4>
-    <a href="https://docs.terra.money/">Documentation Website</a>
+    <a href="https://classic-docs.terra.money/">Documentation Website</a>
   </h4>
 </div>
 
