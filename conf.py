@@ -17,10 +17,10 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Terra Docs'
-copyright = '2022, Terraform Labs'
+project = 'Terra Classic Docs'
+copyright = '2022'
 html_show_copyright = False
-#author = Terraform Labs
+#author = The public
 
 root_doc = "index"
 
