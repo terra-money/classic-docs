@@ -26,6 +26,10 @@ The Consensus PubKey of your node is required to create a new validator. Run:
    In order for Terrad to recognize a wallet address it must contain tokens. For the testnet, use [the faucet](https://faucet.terra.money/) to send Luna to your wallet. If you are on mainnet, send funds from an existing wallet. 1-3 luna are sufficient for most setup processes.
    :::
 
+   ::: {note}
+   Due to changes in classic-core v0.5.19 (and Terra's cosmos-sdk v0.44) on May 12th, 2022, messages that modified validator staking power on Terra were prevented, and the cosmos-sdk functions CreateValidator(), and Delegate() were blocked after block height 7603700.  This behavior has changed with classic-core v0.5.21 (via a dependence on, and changes made in, Terra's cosmos-sdk v0.44).  The changes made do the following:  re-enables the creation of validators (approximately Nov 12, 2022), re-enables the ability to delegate stake to existing validators (approximately Sep 12, 2022)(to prevent catch-up node consensus failure), and prevents any one validator from obtaining more than 20% of the staking power until future governance decides otherwise (as a preventative security measure).  You may find it interesting to look at the [Staking](../../develop/module-specifications/spec-staking.md) module, which covers the logic for staking and validators.
+   :::
+
 To create the validator and initialize it with a self-delegation, run the following command. `key-name` is the name of the Application Operator Key that is used to sign transactions.
 
 ```bash
