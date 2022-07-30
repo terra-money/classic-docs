@@ -150,6 +150,10 @@ func AllocateTokens(feesCollected sdk.Coins, feePool FeePool, proposer Validator
 
 ## Parameters
 
+::: {note}
+On June 15, 2022, the Terra community passed [governance proposal 4080](https://station.terra.money/proposal/4080) which changed the following parameters via a parameter proposal:  "CommunityTax":"0.5"; "BaseProposerReward":"0.03"; "BonusProposerReward":"0.12".  You may find it interesting to also look at the Cosmos [distribution](https://docs.cosmos.network/v0.44/modules/distribution/03_begin_block.html#reward-to-the-community-pool) module documentation regarding these parameters.
+:::
+
 The subspace for the distribution module is `distribution`.
 
 ```go

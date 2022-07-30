@@ -16,18 +16,22 @@ The following is the governance proposal procedure:
 
 ### Deposit Period
 
-After a proposal is submitted, it enters the deposit period, where it must reach a total minimum deposit of 50 Luna within 2 weeks from the time of its submission. The deposit threshold is reached when the sum of the initial deposit (from the proposer) and the deposits from all other interested network participants meet or exceed 50 Luna.
+::: {note}
+On June 8, 2022, the Terra community passed [governance proposal 2296](https://station.terra.money/proposal/2296) which changed the total minimum deposit for a proposal from 50 Luna to 345,000 Luna via a parameter change proposal.
+:::
+
+After a proposal is submitted, it enters the deposit period, where it must reach a total minimum deposit of 345,000 Luna within 2 weeks from the time of its submission. The deposit threshold is reached when the sum of the initial deposit (from the proposer) and the deposits from all other interested network participants meet or exceed 345,000 Luna.
 
 Deposits protect against unnecessary proposals and spam.
 
 Deposits get refunded if all of the following conditions are met:
-- The minimum deposit of 50 Luna is reached within the two-week deposit period.
+- The minimum deposit of 345,000 Luna is reached within the two-week deposit period.
 - `Quorum` is met: the number of total votes is greater than 40% of all staked Luna
 - The total number of `NoWithVeto` votes is less than 33.4% of the total vote.
 - A vote returns a majority of `Yes` or `No` votes.
 
 Deposits are burned under any of the following conditions:
-- The minimum deposit of 50 Luna is not reached within the two-week deposit period.
+- The minimum deposit of 345,000 Luna is not reached within the two-week deposit period.
 - `Quorum` is not met: the number of total votes after the one-week voting period is less than 40% of all staked Luna.
 - the number of `NoWithVeto` votes is above 33.4% of the total vote.
 
@@ -262,7 +266,7 @@ type VotingParams struct {
 - amount: `50000000`
 
 
-The minimum deposit amount for a proposal to enter a voting period. Currently 50 Luna.
+The minimum deposit amount for a proposal to enter a voting period. Currently 345,000 Luna.
 
 ### MaxDepositPeriod
 
