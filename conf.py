@@ -105,7 +105,7 @@ nitpicky = True
 # Theme options
 html_theme_options = {
     "path_to_docs": "docs",
-    "repository_url": "https://github.com/terra-money/docs",
+    "repository_url": "https://github.com/terra-rebels/classic-docs",
     "use_repository_button": True,
     "use_edit_page_button": False,
     "use_issues_button": True,
