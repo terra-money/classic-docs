@@ -20,7 +20,7 @@ jobs:
           docs-folder: "."
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           ssh-key: ${{ secrets.DEPLOY_KEY }}
           branch: gh-pages
