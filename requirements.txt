@@ -33,7 +33,7 @@ sphinxcontrib-jsmath
 sphinxcontrib-qthelp
 sphinxcontrib-serializinghtml >=1.1.5
 sphinxcontrib.youtube
-sphinx-book-theme ~=0.2.0
+sphinx-book-theme
 sphinx-copybutton
 sphinx_design
 sphinx-notfound-page
