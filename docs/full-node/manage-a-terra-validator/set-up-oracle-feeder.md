@@ -42,10 +42,10 @@ terrad tx market swap <luna-amount>uluna ukrw --from=<feeder>
 
 To start submitting oracle messages with your feeder account, install and set up an oracle feeder.
 
-- Install Terra's Node.js [`oracle-feeder`](https://github.com/terra-money/oracle-feeder) by visiting [Terra's oracle feeder Github repo](https://github.com/terra-money/oracle-feeder).
+- Install Terra's Node.js [`oracle-feeder`](https://github.com/classic-terra/oracle-feeder) by visiting [Terra's oracle feeder Github repo](https://github.com/classic-terra/oracle-feeder).
 
 Validators are encouraged to set up their own oracle feeders.
 
 Some examples of oracle feeder projects include:
-- The [`terra_oracle_voter`](https://github.com/b-harvest/terra_oracle_voter) in Python by [B-Harvest](https://bharvest.io/).
+- The [`terra_oracle_voter`](https://github.com/b-harvest/terra_oracle_voter) in Python by [B-Harvest](https://bharvest.io/) (currently deprecated).
 - The [`terra-oracle`](https://github.com/node-a-team/terra-oracle) in Go by [Node A-Team](https://nodeateam.com/).

@@ -81,7 +81,7 @@ write-vm-memory-cache-size = 100
 
 ## Oracle voting errors
 
-You might receive the following error message by the [Terra Oracle feeder](https://github.com/terra-money/oracle-feeder):
+You might receive the following error message by the [Terra Oracle feeder](https://github.com/classic-terra/oracle-feeder):
 
     `broadcast error: code: 3, raw_log: validator does not exist: terravaloperxxx`
 
